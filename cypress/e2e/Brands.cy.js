@@ -32,7 +32,6 @@ const brands = [
     'https://price92.pk/mobiles/alcatel-phones-price-in-pakistan',
     'https://price92.pk/mobiles/lg-phones-price-in-pakistan',
     'https://price92.pk/mobiles/tcl-phones-price-in-pakistan',
-    'https://price92.pk/mobiles/club-phones-price-in-pakistan',
 ];
 
 describe('Tests for Multiple Brands', function() {
