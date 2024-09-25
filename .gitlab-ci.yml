@@ -1,0 +1,10 @@
+image: cypress/browsers:node14.17.0-chrome91-ff89
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test
