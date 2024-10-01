@@ -3,7 +3,7 @@
 
 describe('Home Page Tests', () => {
   beforeEach(() => {
-      cy.visit('https://price92.pk');
+      cy.visit('https://staging.price92.com');
   });
 
   it('should have a title element', () => {
@@ -20,6 +20,6 @@ describe('Home Page Tests', () => {
   });
 
   it('should contain a canonical url', () => {
-    cy.get('link[rel="canonical"]').should('have.attr', 'href', 'https://price92.pk');
+    cy.get('link[rel="canonical"]').should('have.attr', 'href', 'https://staging.price92.com');
 });
 });
